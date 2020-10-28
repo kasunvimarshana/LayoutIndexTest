@@ -28,9 +28,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 // });
 
 var token = document.head.querySelector('meta[name="csrf-token"]');
-var $ = window.$ = window.jQuery = require('jquery')();
-var bootstrap = window.bootstrap = require('bootstrap')();
-var admin_lte = window.admin_lte = require('admin-lte')();
-var select2 = window.select2 = require('select2')( $ );
-var dataTable = window.dataTable = require( 'datatables.net' )( window, $ );
-var dataTableBS4 = window.dataTableBS4 = require( 'datatables.net-bs4' )( window, $ );
+var $ = window.$ = window.jQuery = require('jquery');
+var bootstrap = window.bootstrap = require('bootstrap');
+var jQueryValidation = window.jQueryValidation = require('jquery-validation');
+//var admin_lte = window.admin_lte = require('admin-lte');
+var select2 = window.select2 = require('select2');
+var sweetalert = window.sweetalert = require('sweetalert');

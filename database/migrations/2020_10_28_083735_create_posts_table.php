@@ -17,6 +17,7 @@ class CreatePostsTable extends Migration
             $table->id();
             $table->timestamps();
             
+            $table->unsignedBigInteger('user_id');
             $table->string('title');
             $table->text('description')->nullable();
             $table->timestamp('time_create')->useCurrent()->nullable();
